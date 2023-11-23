@@ -53,18 +53,28 @@ git branch и название новой ветки (создание ччер�
 
 # create a new repository on the command line
 echo "# -3" >> README.md
+
   git init
+  
   git add README.md
+  
   git commit -m "first commit"
+  
   git branch -M main
+  
   git remote add origin https://github.com/GainaOksana/-3.git
+  
   git push -u origin main
 
 # …or push an existing repository from the command line
 git remote add origin https://github.com/GainaOksana/-3.git
+
   git branch -M main
+  
   git push -u origin main
 
 # …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+git push - выгрузка изменений в Git Hub
 
